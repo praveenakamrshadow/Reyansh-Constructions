@@ -263,14 +263,14 @@ section {
     left: 0;
     height: 100%;
     width: 100%;
-    background: -webkit-gradient(
+    /* background: -webkit-gradient(
         linear,
         left top,
         right top,
         from(var(--white)),
         to(transparent)
-    );
-    background: linear-gradient(90deg, var(--white), transparent);
+    ); */
+    /* background: linear-gradient(90deg, var(--white), transparent); */
 }
 
 .home .slide .content {
@@ -656,8 +656,15 @@ section {
     section {
         padding: 3rem 2rem;
     }
+
     .header #menu-btn {
         display: inline-block;
+    }
+    .header #info-btn {
+        display: none;
+    }
+    .header #search-btn {
+        display: none;
     }
     .header .navbar {
         position: absolute;
